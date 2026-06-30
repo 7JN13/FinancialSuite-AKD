@@ -1,0 +1,6 @@
+{
+  "name": "7J&Tech Creative & Financial Suite",
+  "description": "An integrated dual platform featuring a Script-to-Storyboard Studio with high-resolution frame rendering, paired with a BIR-compliant ARKA Dental Bookkeeping and Smart Auditing Console with built-in PDF/Excel sheet export features.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

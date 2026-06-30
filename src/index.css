@@ -1,0 +1,280 @@
+@import "tailwindcss";
+
+/* ==========================================
+   ARKA DENTAL CENTER OBSIDIAN DARK THEME 
+   ========================================== */
+
+/* Root dark selector */
+.dark {
+  background-color: #090c15 !important;
+  color: #e2e8f0 !important;
+}
+
+/* Base Body and App Containment overrides */
+.dark body,
+.dark .bg-slate-50,
+.dark .bg-[#F4F4F5] {
+  background-color: #090c15 !important;
+  color: #e2e8f0 !important;
+}
+
+/* Global Card Backgrounds */
+.dark .bg-white {
+  background-color: #111827 !important;
+  border-color: #1f2937 !important;
+  color: #f1f5f9 !important;
+}
+
+/* Border adaptations */
+.dark .border-slate-100,
+.dark .border-slate-200,
+.dark .border-[#E4E4E7],
+.dark .border-[#E5E7EB],
+.dark .border-rose-100,
+.dark .border-amber-100,
+.dark .border-teal-100,
+.dark .border-emerald-100 {
+  border-color: #1f2937 !important;
+}
+
+/* General Hover elements */
+.dark .hover\:bg-slate-50:hover,
+.dark .hover\:bg-gray-50:hover,
+.dark .hover\:bg-slate-100:hover,
+.dark .hover\:bg-slate-100\/60:hover {
+  background-color: #1f2937 !important;
+}
+
+/* Specific interactive dark inputs */
+.dark input[type="text"],
+.dark input[type="number"],
+.dark input[type="password"],
+.dark input[type="date"],
+.dark select,
+.dark textarea {
+  background-color: #030712 !important;
+  color: #f8fafc !important;
+  border-color: #1f2937 !important;
+  box-shadow: none !important;
+}
+
+.dark input::placeholder {
+  color: #4b5563 !important;
+}
+
+/* Header adaptations */
+.dark header.bg-white {
+  background-color: #111827 !important;
+  border-color: #1f2937 !important;
+}
+
+.dark header h1 {
+  color: #ffffff !important;
+}
+
+/* Global Text Colors */
+.dark .text-slate-900,
+.dark .text-slate-800,
+.dark .text-gray-900,
+.dark .text-gray-800,
+.dark .text-[#18181B] {
+  color: #f8fafc !important;
+}
+
+.dark .text-slate-600,
+.dark .text-slate-650,
+.dark .text-slate-500,
+.dark .text-[#71717A],
+.dark .text-slate-710 {
+  color: #94a3b8 !important;
+}
+
+.dark .text-slate-400,
+.dark .text-slate-450 {
+  color: #64748b !important;
+}
+
+/* Tab menu bar strip */
+.dark .bg-slate-100 {
+  background-color: #1f2937 !important;
+  border-color: #374151 !important;
+}
+
+/* Individual tab button states */
+.dark .bg-white.text-rose-600.shadow-sm.border-t-2 {
+  background-color: #111827 !important;
+  color: #f43f5e !important;
+  border-top-color: #f43f5e !important;
+}
+
+.dark .text-slate-650.hover\:bg-white\/40 {
+  color: #94a3b8 !important;
+}
+
+.dark .text-slate-655.hover\:bg-white\/40:hover {
+  background-color: #111820 !important;
+  color: #f8fafc !important;
+}
+
+/* Statistics cards bold titles */
+.dark .text-emerald-700 {
+  color: #34d399 !important;
+}
+
+/* Success status logs, OCR panels, Smart audit flags */
+.dark .bg-amber-50 {
+  background-color: rgba(120, 53, 4, 0.15) !important;
+  border-color: rgba(245, 158, 11, 0.3) !important;
+  color: #fca5a5 !important;
+}
+
+.dark .text-amber-900 {
+  color: #fde68a !important;
+}
+
+.dark .bg-rose-50 {
+  background-color: rgba(159, 18, 57, 0.15) !important;
+  border-color: rgba(244, 63, 94, 0.3) !important;
+  color: #fecdd3 !important;
+}
+
+.dark .text-rose-700 {
+  color: #fda4af !important;
+}
+
+.dark .bg-emerald-50 {
+  background-color: rgba(6, 95, 70, 0.15) !important;
+  border-color: rgba(52, 211, 153, 0.3) !important;
+  color: #a7f3d0 !important;
+}
+
+.dark .text-emerald-800 {
+  color: #6ee7b7 !important;
+}
+
+.dark .bg-teal-50 {
+  background-color: rgba(13, 148, 136, 0.15) !important;
+  border-color: rgba(20, 184, 166, 0.3) !important;
+}
+
+.dark .bg-sky-50 {
+  background-color: rgba(3, 105, 161, 0.15) !important;
+  border-color: rgba(14, 165, 233, 0.3) !important;
+  color: #bae6fd !important;
+}
+
+.dark .text-sky-800 {
+  color: #7dd3fc !important;
+}
+
+/* Paystub popup active viewer */
+.dark .bg-neutral-900 {
+  background-color: #030712 !important;
+  border-color: #111827 !important;
+}
+
+/* Audit discrepancies and files */
+.dark .bg-rose-500\/10 {
+  background-color: rgba(239, 68, 68, 0.15) !important;
+}
+
+.dark .bg-emerald-500\/5 {
+  background-color: rgba(16, 185, 129, 0.08) !important;
+}
+
+/* Grid striping tables */
+.dark .bg-slate-50\/80 {
+  background-color: rgba(17, 24, 39, 0.5) !important;
+}
+
+.dark .bg-[#FDF2F2] {
+  background-color: rgba(153, 27, 27, 0.18) !important;
+}
+
+.dark .bg-[#F0FDF4] {
+  background-color: rgba(21, 128, 61, 0.15) !important;
+}
+
+/* Print controls */
+@media screen {
+  .print-only-wrapper {
+    display: none !important;
+  }
+}
+
+@media print {
+  /* Hide the main react app root when printing-active is on body */
+  body.printing-active #root {
+    display: none !important;
+  }
+  
+  /* Show only our dedicated cloned print container */
+  body.printing-active .print-only-wrapper {
+    display: block !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    background: white !important;
+    color: black !important;
+  }
+
+  body.printing-active .print-only-wrapper .paystub-print-card {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: none !important;
+    box-shadow: none !important;
+    background: white !important;
+    color: black !important;
+  }
+
+  /* Core resets for ink saving, border removals, and shadows */
+  body.printing-active .print-only-wrapper * {
+    background-color: transparent !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+    border-color: #cbd5e1 !important; /* soft legible borders */
+  }
+
+  /* Make sure background of net pay container has proper contrast or subtle border */
+  body.printing-active .print-only-wrapper .bg-slate-900 {
+    background-color: #f1f5f9 !important; /* light gray for print instead of solid black, saving ink */
+    color: #0f172a !important;
+    border: 1px solid #94a3b8 !important;
+  }
+
+  body.printing-active .print-only-wrapper .text-white {
+    color: #0f172a !important;
+  }
+
+  body.printing-active .print-only-wrapper .text-emerald-400 {
+    color: #047857 !important; /* dark green for print contrast */
+    font-weight: 900 !important;
+  }
+
+  body.printing-active .print-only-wrapper .text-rose-500 {
+    color: #be123c !important; /* dark red for print contrast */
+  }
+
+  body.printing-active .print-only-wrapper .text-slate-400 {
+    color: #475569 !important;
+  }
+
+  /* Ensure the paystub fits on one A4 page without spilling over */
+  body {
+    margin: 0 !important;
+    padding: 0 !important;
+    background: white !important;
+    color: black !important;
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  @page {
+    size: A4 portrait;
+    margin: 12mm;
+  }
+}
+
